@@ -4,7 +4,7 @@ services:
     ports:
       - "5001:5000"
     environment:
-      - PERPLEXITY_API_KEY=${PERPLEXITY_API_KEY:-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}
+      - PERPLEXITY_API_KEY=${PERPLEXITY_API_KEY:your_key_goes_here}
     volumes:
       - .:/app
     restart: unless-stopped
