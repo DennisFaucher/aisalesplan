@@ -13,7 +13,7 @@ import markdown
 app = Flask(__name__)
 
 # Get API key from environment variable
-PERPLEXITY_API_KEY = os.getenv("PERPLEXITY_API_KEY", "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")
+PERPLEXITY_API_KEY = os.getenv("PERPLEXITY_API_KEY", "your_api_key_goes_here")
 
 
 def search_perplexity(api_key: str, query: str):
